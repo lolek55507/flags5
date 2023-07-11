@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Type flags</title>
+</head>
+<body>
+    <nav>
+        <div id="timmer"></div>
+        <input type="text" placeholder="type Name Of Country Here" id="answers">
+        <button id="startButton" onclick="startPlaying()">Start</button>
+        <button id="learn" onclick="stopPlaying()">Learn</button>
+    </nav>
+    
+    <div id="Counter">0</div>
+    <div class="flagueContainer">
+        <div class="innerCon"><div id="flague"><img src="flagues/flag1.png"></div>
+        <p id="flagueName">European Union</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag2.png"></div>
+        <p id="flagueName">Albania</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag3.png"></div>
+        <p id="flagueName">Andorra</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag4.png"></div>
+        <p id="flagueName">Austria</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag5.png"></div>
+        <p id="flagueName">Belarus</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag6.png"></div>
+        <p id="flagueName">Belgium</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag7.png"></div>
+        <p id="flagueName">Bosnia</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag8.png"></div>
+        <p id="flagueName">Bulgaria</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag9.png"></div>
+        <p id="flagueName">Croatia</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag10.png"></div>
+        <p id="flagueName">Cyprus</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag11.png"></div>
+        <p id="flagueName">Czech Republic</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag12.png"></div>
+        <p id="flagueName">Denmark</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag13.png"></div>
+        <p id="flagueName">Estonia</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag14.png"></div>
+        <p id="flagueName">Faroe Islands</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag15.png"></div>
+        <p id="flagueName">Finland</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag16.png"></div>
+        <p id="flagueName">France</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag17.png"></div>
+        <p id="flagueName">Germany</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag18.png"></div>
+        <p id="flagueName">Gibraltar</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag19.png"></div>
+        <p id="flagueName">Greece</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag20.png"></div>
+        <p id="flagueName">Greenland</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag21.png"></div>
+        <p id="flagueName">Hungary</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag22.png"></div>
+        <p id="flagueName">Iceland</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag23.png"></div>
+        <p id="flagueName">Ireland</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag24.png"></div>
+        <p id="flagueName">Italy</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag25.png"></div>
+        <p id="flagueName">Latvia</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag26.png"></div>
+        <p id="flagueName">Liechtenstein</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag27.png"></div>
+        <p id="flagueName">Lithuania</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag28.png"></div>
+        <p id="flagueName">Luxembourg</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag29.png"></div>
+        <p id="flagueName">Macedonia</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag30.png"></div>
+        <p id="flagueName">Malta</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag31.png"></div>
+        <p id="flagueName">Moldova</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag32.png"></div>
+        <p id="flagueName">Monaco</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag33.png"></div>
+        <p id="flagueName">Montenegro</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag34.png"></div>
+        <p id="flagueName">Netherlands</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag35.png"></div>
+        <p id="flagueName">Norway</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag36.png"></div>
+        <p id="flagueName">Poland</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag37.png"></div>
+        <p id="flagueName">Portugal</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag38.png"></div>
+        <p id="flagueName">Romania</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag39.png"></div>
+        <p id="flagueName">Russian Federation</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag40.png"></div>
+        <p id="flagueName">San Marino</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag41.png"></div>
+        <p id="flagueName">Serbia</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag42.png"></div>
+        <p id="flagueName">Slovakia</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag43.png"></div>
+        <p id="flagueName">Slovenia</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag44.png"></div>
+        <p id="flagueName">Spain</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag45.png"></div>
+        <p id="flagueName">Sweden</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag46.png"></div>
+        <p id="flagueName">Switzerland</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag47.png"></div>
+        <p id="flagueName">Turkey</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag48.png"></div>
+        <p id="flagueName">Ukraine</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag49.png"></div>
+        <p id="flagueName">United Kingdom</p></div>
+        <div class="innerCon"><div id="flague"><img src="flagues/flag50.png"></div>
+        <p id="flagueName">Vatican City State</p></div>
+        
+        
+        
+        <audio id="audioW">
+            <source src="[YT2mp3.info] - wrong answer Sound effect No Copyright (320kbps).mp3">
+        </audio>
+        <audio id="audioC">
+            <source src="[YT2mp3.info] - Correct Answer Sound Effect (320kbps).mp3">
+        </audio>
+        <audio id="tickingSound">
+            <source src="tickingsound.mp3">
+        </audio>
+        
+        
+        
+        <script src="app.js"></script>
+        
+    </div>
+
+    
+</body>
+</html>
